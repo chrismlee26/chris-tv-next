@@ -11,7 +11,7 @@ function NavBar() {
           title, url }]) => (
           <h2
             key={key}
-            onClick={() => router.push(`/?genre=${title}`)}
+            onClick={() => router.push(`/?genre=${key}`)}
             className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-white active:text-red-500">{title}</h2>
         ))}
       </div>
