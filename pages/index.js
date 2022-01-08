@@ -29,7 +29,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
-      requests: request.results,
+      results: request.results,
     },
   }
 }
